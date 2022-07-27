@@ -7,6 +7,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <title>Weather Dashboard</title>
-    
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather Dashboard</title>   
 </head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row navbar navbar-grey bg-dark">
+            <div class="col-12 text-center">
+                <h1>Weather Dashboard</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 bg-light pb-2 pt-3" id="searchResults">
+                <div class="row">
+                    <div class="col-12">
+                        <h4>Search for a City:</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="input-group">
+                            <input class="form-control" type="text" id="enterCity"
+                                placeholder="Enter city to view weather"><button type="button" id="searchBtn"
+                                class="btn btn-primary"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
